@@ -1,0 +1,125 @@
+*{margin: 0 ; padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+font-size: x-large;
+}
+
+body {background-color: gray
+}
+
+
+
+
+#wrapper {
+max-width: 1000px;
+margin: 0 auto;
+background-color: white;
+
+}
+
+header img {width:100%; display:block;
+    max-width: 1000px;
+    max-height: 500px;
+
+}
+
+
+nav {
+background-color: white;
+
+}
+
+nav a {
+
+
+}
+
+a.menu {display: inline-block;   
+width: 25%;
+padding: 15px 30px 15px 30px;
+color: black;
+text-decoration: none;
+text-align: center;
+font-size: 25px;
+
+
+
+}
+
+a.menu:hover { 
+background-color: red;
+}
+
+.active { 
+    background-color: red;
+}
+
+article { 
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+h1 {
+    text-align: center;
+margin: 0 10% 50px 10%;
+border-bottom:5px solid red;
+padding-bottom: 5px solid yellow;
+color: black;
+font-size: 30px;
+
+
+}
+
+article {
+    color: black;
+}
+
+
+img.left  {
+    float: left;
+    padding: 10px;
+    width: 25%;
+    border-radius: 20%;
+    
+}
+
+
+@media (min-width: 500px) {
+
+    nav a {
+        width: 10%;
+
+    }
+}
+
+
+
+
+
+
+
+
+p {
+    max-width: 1000px;
+    text-align: center;
+}
+
+body {
+background-image:url(tlo1.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
